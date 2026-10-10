@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameNews - Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+body { font-family: 'Arial', sans-serif; background-color: #1a1a1a; color: white; margin: 0; }
+.container { width: 85%; margin: 0 auto; max-width: 1200px; }
+header { background-color: #000; padding: 20px 0; border-bottom: 3px solid #ff4500; }
+header h1 { margin: 0; float: left; }
+header h1 span { color: #ff4500; }
+header nav ul { margin: 0; padding: 0; list-style: none; float: right; }
+header nav ul li { display: inline; margin-left: 20px; }
+header a { text-decoration: none; color: white; font-weight: bold; }
+
+.hero { background: #333; padding: 50px 0; text-align: center; }
+
+.games-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding: 20px 0; }
+.game-card { background-color: #262626; padding: 15px; border-radius: 5px; text-align: center; }
+.game-card img { max-width: 100%; height: auto; border-radius: 5px; }
+.btn { display: inline-block; padding: 10px 20px; background-color: #ff4500; color: white; text-decoration: none; border-radius: 3px; margin-top: 10px; }
+
+footer { text-align: center; padding: 30px 0; background-color: #000; margin-top: 20px; }
+       </style>
+    <header>
+        <div class="container">
+            <h1>Game<span>News</span></h1>
+            <nav>
+         <ul>
+
+<li><a href="relases.html">Релизы</a></li>
+<li><a href="feedback.html">Отзывы</a></li>
+<li><a href="forum.html">Форум</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Самые горячие новинки</h2>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="games-grid">
+            <div class="game-card">
+                <img src="yakuza-0-directors-cut-1.avif" alt="Игра 1">
+                <h3>Yakuza 0 Director's Cut</h3>
+                <p>1988 год... Камурочо посреди бандитских разборок банд Якудза
+              зарождаются две легенды, Кадзума Кирю Дракон Додзимы, и Безумный Пёс Симано Горо Мадзима 
+                </p>
+                <a href="yakuza-0-directors-cut-review" class="btn">Читать обзор</a>
+            </div>
+            <div class="game-card">
+                <img src="maxresdefault.jpg" alt="Игра 2">
+                <h3>Resident Evil 9 Requiem</h3>
+                <p>Реквием для умерших. Кошмар для живых. Приготовьтесь избегать смерти испытав потрясающие зрелище от которого замерзает сердце...</p>
+                <a href="resident-evil-9-requiem-review" class="btn">Читать обзор</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 GameNews. Все права защищены.</p>
+            <p> <a href="info.html"> О нас </a> Наши контактные данные</p>
+        </div>
+    </footer>
+</body>
+</html>
